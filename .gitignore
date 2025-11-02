@@ -1,11 +1,23 @@
-# =========================
-# IGNORAR ARQUIVOS GRANDES
-# =========================
+# ===========================
+# ARQUIVOS E PASTAS A IGNORAR
+# ===========================
+
+# Checkpoints do Jupyter (em qualquer subpasta)
+**/.ipynb_checkpoints/
+
+# Caches e temporários
 __pycache__/
 *.pyc
 *.pyo
 *.tmp
 *.log
 
-# Jupyter checkpoints
-.ipynb_checkpoints/
+# Ambientes virtuais
+.venv/
+
+# Documentos e PDFs
+*.pdf
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
