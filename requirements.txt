@@ -1,0 +1,15 @@
+# Núcleo científico
+numpy==2.3.3
+scipy==1.16.2
+matplotlib==3.9.2
+
+# Ambiente interativo
+jupyter==1.1.1
+notebook==7.2.1
+
+# IDE científica (opcional, usada no Anaconda)
+spyder==6.0.0
+
+# Utilitários (boa prática para futuros experimentos)
+pandas==2.2.3
+ipykernel==6.29.5
