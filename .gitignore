@@ -1,0 +1,11 @@
+# =========================
+# IGNORAR ARQUIVOS GRANDES
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.tmp
+*.log
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
