@@ -17,7 +17,7 @@ A pesquisa envolve o uso de sinais **eletromiográficos (sEMG)**, explorando mé
 ---
 
 ## 🧩 Estrutura do Projeto
-
+```
 IC - Sinais sEMG/
 ├── artigos/ # Artigos e referências científicas
 ├── data/ # Bases de dados (.mat, .csv, etc.)
@@ -26,26 +26,33 @@ IC - Sinais sEMG/
 ├── .gitignore # Arquivos e pastas ignoradas pelo Git
 ├── requirements.txt # Dependências do projeto
 └── README.md # Este documento
-
+```
 ---
 
 ## ⚙️ Como executar o projeto
 
 1. **Clone o repositório**
-   ```bash
+   ```
    git clone https://github.com/AndersonLesniewski/ic-sinais-semg.git
    cd ic-sinais-semg
+   ```
 
 2. **Crie um ambiente virtual (opcional)**
-    python -m venv .venv
-    .venv\Scripts\activate   # Windows
-    source .venv/bin/activate   # Linux/Mac
+   ```
+   python -m venv .venv
+   .venv\Scripts\activate   # Windows
+   source .venv/bin/activate   # Linux/Mac
+   ```
 
 3. **Instale as dependências**
-    pip install -r requirements.txt
+   ```
+   pip install -r requirements.txt
+   ```
 
 4. **Execute os notebooks**
-    jupyter notebook
+   ```
+   jupyter notebook
+   ```
 
 ## 🧪 Organização por etapas
 
@@ -57,14 +64,6 @@ Os experimentos e relatórios da Iniciação Científica são organizados em not
 | `Semanas_03_04.ipynb` | Semanas 3–4 | Processamento de sinais reais (NinaPro DB1 – filtragem e FFT)            |
 | *(futuros)*           | ...         | Extração de *features*, aprendizado de máquina, controle de dispositivos |
 
-## 📚 Referências
-
-NinaPro Database 1 – Non-Invasive Adaptive Prosthetics
-https://ninapro.hevs.ch/instructions/DB1.html
-
-Atzori, M., et al. (2014). Electromyography data for non-invasive naturally-controlled robotic hand prostheses. Scientific Data, 1:140053.
-
-De Luca, C. J. (2006). Electromyography. Encyclopedia of Medical Devices and Instrumentation.
 
 ## 👨‍🔬 Autor
 Anderson Rafael da Silva Lesniewski
